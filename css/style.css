@@ -387,6 +387,7 @@ body {
 
 .devojka-6 {
   margin-top: 70px;
+  margin-bottom: 45px;
 }
 
 .new-experience {
@@ -396,7 +397,7 @@ body {
 .new-experience-wrap {
   display: flex;
   align-items: center;
-  gap: 150px;
+  gap: 120px;
 }
 
 .new-experience h2 {
@@ -435,13 +436,14 @@ body {
 
 .pricing {
   background-color: #6c9894;
+  height: 700px;
 }
 
 .top-3 h2 {
   text-align: center;
   padding-top: 100px;
   color: white;
-  font-size: 45px;
+  font-size: 50px;
   font-family: "Fredoka One";
   letter-spacing: 3px;
 }
@@ -454,6 +456,13 @@ body {
   font-size: 20px;
 }
 
+.pricing-wrap {
+  display: flex;
+  flex-direction: row;
+  margin-top: 35px;
+  justify-content: center;
+}
+
 .left-5 {
   width: 33.3%;
 }
@@ -461,7 +470,7 @@ body {
 .square-1 {
   display: flex;
   width: 300px;
-  height: 200px;
+  height: 300px;
   border: 3px solid white;
   background-color: white;
   align-items: center;
@@ -486,4 +495,273 @@ body {
 .square-1 .fa-solid {
   margin-top: 20px;
   color: #6c9894;
+}
+
+.square-1 .text-2 {
+  font-family: "Verdana";
+  margin-top: 25px;
+  color: #6c9894;
+}
+
+.square-1 .register-now {
+  margin-top: 20px;
+  background-color: #6c9894;
+  color: white;
+  width: 250px;
+  height: 40px;
+  border: none;
+  border-radius: 4px;
+  font-family: "Fredoka One";
+  font-size: 16px;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+
+.middle-5 {
+  width: 33.3%;
+}
+
+.square-2 {
+  display: flex;
+  width: 300px;
+  height: 300px;
+  border: 3px solid white;
+  background-color: white;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 50px;
+  border-radius: 8px;
+}
+
+.square-2 .text {
+  color: #6c9894;
+  font-family: "Fredoka One";
+  font-size: 25px;
+}
+
+.square-2 .text-1 {
+  color: #6c9894;
+  margin-top: 5px;
+  font-family: "Fredoka One";
+  font-size: 20px;
+}
+
+.square-2 .fa-solid {
+  margin-top: 20px;
+  color: #6c9894;
+}
+
+.square-2 .text-2 {
+  font-family: "Verdana";
+  margin-top: 25px;
+  color: #6c9894;
+}
+
+.square-2 .register-now {
+  margin-top: 20px;
+  background-color: #6c9894;
+  color: white;
+  width: 250px;
+  height: 40px;
+  border: none;
+  border-radius: 4px;
+  font-family: "Fredoka One";
+  font-size: 16px;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+
+.right-5 {
+  /* width: 33.3%; */
+}
+
+.square-3 {
+  display: flex;
+  width: 300px;
+  height: 300px;
+  border: 3px solid white;
+  background-color: white;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 50px;
+  border-radius: 8px;
+}
+
+.square-3 .text {
+  color: #6c9894;
+  font-family: "Fredoka One";
+  font-size: 25px;
+}
+
+.square-3 .text-1 {
+  color: #6c9894;
+  margin-top: 5px;
+  font-family: "Fredoka One";
+  font-size: 20px;
+}
+
+.square-3 .fa-solid {
+  margin-top: 20px;
+  color: #6c9894;
+}
+
+.square-3 .text-2 {
+  font-family: "Verdana";
+  margin-top: 25px;
+  color: #6c9894;
+}
+
+.square-3 .register-now {
+  margin-top: 20px;
+  background-color: #6c9894;
+  color: white;
+  width: 250px;
+  height: 40px;
+  border: none;
+  border-radius: 4px;
+  font-family: "Fredoka One";
+  font-size: 16px;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+
+.devojka-7 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 45px;
+}
+
+.trainer-devandra {
+  height: 700px;
+  background-image: url("../media/images/background2.png");
+}
+
+.trainer-devandra p {
+  text-align: center;
+  font-family: "Verdana";
+  font-size: 50px;
+  color: #6c9894;
+}
+
+.trainer-devandra h2 {
+  color: #6c9894;
+  text-align: center;
+  font-family: "Fredoka One";
+  font-size: 30px;
+  letter-spacing: 3px;
+  margin-top: 40px;
+}
+
+.dont-miss {
+  background-color: #6c9894;
+  margin-top: 10px;
+}
+
+.dont-miss h1 {
+  text-align: center;
+  font-family: "Fredoka One";
+  padding-top: 150px;
+  color: white;
+  font-size: 50px;
+  letter-spacing: 3px;
+}
+
+.dont-miss p {
+  text-align: center;
+  color: white;
+  font-family: "verdana";
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+.subscribe {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.email-field {
+  width: 500px;
+  height: 40px;
+  border-radius: 30px;
+  padding-left: 15px;
+  border-style: none;
+  margin-bottom: 80px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  font-family: "Verdana";
+}
+
+.email-field .active {
+  border: none;
+}
+
+.subscribe-button {
+  background-color: #f4f9f4;
+  color: #6c9894;
+  width: 150px;
+  height: 40px;
+  font-family: "Fredoka One";
+  padding: 6px;
+  border-radius: 30px;
+  border: none;
+  margin-left: -150px;
+  font-size: 18px;
+}
+
+textarea:focus,
+input:focus {
+  outline: none;
+}
+
+.footer-wraper {
+  display: flex;
+  flex-direction: row;
+  gap: 500px;
+  margin-top: 120px;
+}
+
+.footer-wraper h3 {
+  font-family: "Fredoka One";
+  margin-bottom: 15px;
+  color: #6c9894;
+  font-size: 30px;
+  letter-spacing: 1px;
+}
+
+.footer-left p {
+  font-family: "Verdana";
+  /* letter-spacing: -1px; */
+  color: #6c9894;
+  font-size: 18px;
+  /* text-align: left; */
+}
+
+.fa-brands {
+  text-decoration: none;
+  color: white;
+  border-radius: 25px;
+  background-color: #6c9894;
+  height: 20px;
+  width: 30px;
+  text-align: center;
+  margin-top: 20px;
+  padding: 8px 1px 46px 3px;
+}
+
+.footer-right-wrap {
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+}
+
+.footer-right-wrap li {
+  list-style: none;
+}
+
+.footer-right-wrap a {
+  text-decoration: none;
+  list-style: none;
+  color: #6c9894;
+  line-height: 30px;
 }
